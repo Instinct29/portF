@@ -68,7 +68,11 @@ hr {
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
+    display: block;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
+
 .navigation .nav-brand {
     font-weight: bold;
 }
@@ -141,3 +145,16 @@ hr {
 .showcase-blog {
     padding-bottom: 6rem;
 } 
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
